@@ -7,9 +7,9 @@ var gamemanager = new VideogameManager();
 
 Console.WriteLine("1. Inserisci");
 Console.WriteLine("2. Ricerca");
-Console.WriteLine("3. Filtra");
-Console.WriteLine("4. Elimina");
-Console.WriteLine("5. Chiudi");
+//Console.WriteLine("3. Filtra");
+//Console.WriteLine("4. Elimina");
+//Console.WriteLine("5. Chiudi");
 
 while (true)
 {
