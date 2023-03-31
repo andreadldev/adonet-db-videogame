@@ -45,12 +45,12 @@ while (true)
             var id = Convert.ToInt64(Console.ReadLine());
             gamemanager.SearchById(id);
             break;
-        case 3:
-            break;
-        case 4:
-            break;
-        case 5:
-            break;
+        //case 3:
+        //    break;
+        //case 4:
+        //    break;
+        //case 5:
+        //    break;
     }
 }
 
@@ -64,15 +64,15 @@ int Menu(string? input)
         case "2":
         case "ricerca":
             return 2;
-        case "3":
-        case "filtra":
-            return 3;
-        case "4":
-        case "elimina":
-            return 4;
-        case "5":
-        case "chiudi":
-            return 5;
+        //case "3":
+        //case "filtra":
+        //    return 3;
+        //case "4":
+        //case "elimina":
+        //    return 4;
+        //case "5":
+        //case "chiudi":
+        //    return 5;
         default:
             Console.WriteLine("Input non valido");
             return 0;
